@@ -1,0 +1,22 @@
+
+@keyframes zoomin {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+/*zoomin feature on landing page backgorund*/
+}
+/*Landing page image*/
+.images-wrap{
+    background-size: cover;
+    animation: zoomin 120s ease-in infinite;
+}
+/*Arrow tabs for slide show*/
+.nav{
+    display: none;
+}

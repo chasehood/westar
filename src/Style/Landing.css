@@ -1,0 +1,31 @@
+
+/*zoomin feature on landing page backgorund*/
+@keyframes zoomin {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.container{
+    height: 100vh;
+    background-color: orangered;
+    z-index: 1
+}
+.landingApp{
+    z-index: -1;
+}
+/*Landing page image*/
+.images-wrap{
+    z-index: -5;
+    background-size: cover;
+    animation: zoomin 120s ease-in infinite;
+}
+/*Arrow tabs for slide show*/
+.nav{
+    display: none;
+}

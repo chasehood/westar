@@ -11,12 +11,32 @@ class Hero extends Component {
             <div className='logo'>
               <img src={Logo} />
             </div>
-            <div className='name'>Westar Environmental</div>
-            <div className='description'>Laskin and Associates, Inc. is an award-winning creative and innovative Landscape Architecture design firm based in Phoenix, Arizona. With over 40 years of experience and licenses in five states, we collaborate on a wide range of projects. Past projects include Corporate, Commercial, Industrial, Retail, Multi-Family, Hospitality, and Exclusive Residential. Our EXPERIENCE and our PASSION allows us to provide clients, contractors and municipalities with unparalleled professional design.</div>
+            <h3 className='name'>Westar Environmental, LLC.</h3>
+            <div className='description'>
+A successful commercial landscaping project, is highly dependent upon timely completion of the job and long-lasting beautification. Our family of experts has the knowledge and skill to meet these deadlines. We are highly trained professionals in landscape and irrigation system installation.  More importantly, we are skilled in customer care.<br /><br />Every employee at Westar Environmental, understands that reliability, honesty and professionalism are paramount when selecting a landscape contractor.  Westar hauls all their own granite and hardscape materials, we shop the finest nurseries in the valley to find the best prices to extend to our elite clientel.<br /><br />The people that work for us are family, the General Contractors we work for are friends.
+            </div>
             <div className='tabs'>
-              <button>Our Work</button>
-              <button>Our Team</button>
-              <button>Let's Work Together</button>
+              <a>
+                <span className="text">Our Work</span>
+                <span className="line -right"></span>
+                <span className="line -top"></span>
+                <span className="line -left"></span>
+                <span className="line -bottom"></span>
+              </a>
+              <a>
+                <span className="text">Our Team</span>
+                <span className="line -right"></span>
+                <span className="line -top"></span>
+                <span className="line -left"></span>
+                <span className="line -bottom"></span>
+              </a>
+              <a>
+                <span className="text">Let's Work Together</span>
+                <span className="line -right"></span>
+                <span className="line -top"></span>
+                <span className="line -left"></span>
+                <span className="line -bottom"></span>
+              </a>
             </div>
           </div>
         </div>

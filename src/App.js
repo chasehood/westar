@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './Style/App.css';
 import './Style/Hero.css';
-import './Style/Landing.css'
-import Landing from './Components/Landing'
-import Hero from './Components/Hero'
+import './Style/Landing.css';
+import Landing from './Components/Landing';
+import Hero from './Components/Hero';
 
 class App extends Component {
   render() {

@@ -1,81 +1,45 @@
-/*zoomin feature on landing page backgorund*/
+    /*zoomin feature on landing page backgorund*/
 
-@keyframes zoomin {
-    0% {
-        transform: scale(1);
+    @import "~slick-carousel/slick/slick.css";
+    @import "~slick-carousel/slick/slick-theme.css";
+    @keyframes zoomin {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
     }
-    50% {
-        transform: scale(1.5);
+
+    .slider {
+        height: 100vh;
+        width: 100vw;
     }
-    100% {
-        transform: scale(1);
+
+    .slider>img {
+        animation: zoomin 120s ease-in infinite;
+        transition: all .5s ease-in-out;
+        overflow: hidden;
     }
-}
+    /*.img1 {
+        background-image: url('../Images/amber-mason-335282.jpg');
+    }
 
-.landingApp {
-    height: 100vh;
-    z-index: -1;
-}
+    .img2 {
+        background-image: url('../Images/armando-castillejos-30939.jpg');
+    }
 
-.slider {
-    height: 100%;
-    position: relative;
-}
+    .img3 {
+        background-image: url('../Images/kaitlyn-baker-246347.jpg');
+    }
 
-.sliderImg {
-    z-index: -5;
-    /*animation: zoomin 120s ease-in infinite;*/
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
+    .img4 {
+        background-image: url('../Images/scott-webb-154508.jpg');
+    }
 
-.sliderImg one {
-    background-size: cover;
-    animation: fade 8s infinite;
-    -webkit-animation: fade 8s infinite;
-}
-
-.sliderImg two {
-    background-size: cover;
-    animation: fade2 8s infinite;
-    -webkit-animation: fade2 8s infinite;
-}
-
-.sliderImg three {
-    background-size: cover;
-    animation: fade3 8s infinite;
-    -webkit-animation: fade3 8s infinite;
-}
-.sliderImg four {
-    background-size: cover;
-    animation: fade4 8s infinite;
-    -webkit-animation: fade5 8s infinite;
-}
-
-.sliderImg five {
-    background-size: cover;
-    animation: fade5 8s infinite;
-    -webkit-animation: fade5 8s infinite;
-}
-
-@keyframes fade {
-    0% {opacity: 1}
-    33.333% {opacity: 0}
-    66.666% {opacity: 0}
-    100% {opacity: 1}
-}
-
-@keyframes fade2 {
-    0% {opacity: 0}
-    33.333% {opacity: 1}
-    66.666% {opacity: 0}
-    100% {opacity: 0}
-}
-
-@keyframes fade3 {
-    0% {opacity: 0}
-    33.333% {opacity: 0}
-    66.666% {opacity: 1}
-    100% {opacity: 0}
-}
+    .img5 {
+        background-image: url('../Images/thomas-verbruggen-94814.jpg');
+    }*/

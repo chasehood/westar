@@ -6,7 +6,9 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.14",
-    "react-slideshow-image": "^0.1.2"
+    "react-slick": "^0.15.4",
+    "react-slideshow-image": "^0.1.2",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
